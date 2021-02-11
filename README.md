@@ -18,7 +18,7 @@ const once = fn => {
 ```
 #### A function to be called every time from the second call onward:
 ```
-const onceAndAfter = (f, g) => {
+const onceAndAfter = (f, g = () => {}) => {
 	let done = false;
 	return (...args) => {
 		if (!done) {
