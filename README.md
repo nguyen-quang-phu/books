@@ -4,8 +4,7 @@
 
 ### Chapter 2:Thinking Functionally - A First Example
 
-####
-
+#### Doing something only once
 ```
 const once = fn => {
 	let done = false;
